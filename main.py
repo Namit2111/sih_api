@@ -1,5 +1,4 @@
 from flask import Flask,request
-from gradio_client import Client
 import requests
 from html_similarity import style_similarity, structural_similarity, similarity
 from python_sim import calculate_structure_similarity 
